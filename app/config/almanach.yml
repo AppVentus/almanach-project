@@ -1,0 +1,595 @@
+almanach:
+    bootstrap:
+        container:
+            classCont:
+                cont             : container
+        containerFluid:
+            classContFluid:
+                contFluid        : container-fluid
+        gridItem:
+            classGridItem:
+                default          : ""
+                xs1              : col-xs-1
+                xs2              : col-xs-2
+                xs3              : col-xs-3
+                xs4              : col-xs-4
+                xs5              : col-xs-5
+                xs6              : col-xs-6
+                xs7              : col-xs-7
+                xs8              : col-xs-8
+                xs9              : col-xs-9
+                xs10             : col-xs-10
+                xs11             : col-xs-11
+                xs12             : col-xs-12
+                sm1              : col-sm-1
+                sm2              : col-sm-2
+                sm3              : col-sm-3
+                sm4              : col-sm-4
+                sm5              : col-sm-5
+                sm6              : col-sm-6
+                sm7              : col-sm-7
+                sm8              : col-sm-8
+                sm9              : col-sm-9
+                sm10             : col-sm-10
+                sm11             : col-sm-11
+                sm12             : col-sm-12
+                md1              : col-md-1
+                md2              : col-md-2
+                md3              : col-md-3
+                md4              : col-md-4
+                md5              : col-md-5
+                md6              : col-md-6
+                md7              : col-md-7
+                md8              : col-md-8
+                md9              : col-md-9
+                md10             : col-md-10
+                md11             : col-md-11
+                md12             : col-md-12
+                lg1              : col-lg-1
+                lg2              : col-lg-2
+                lg3              : col-lg-3
+                lg4              : col-lg-4
+                lg5              : col-lg-5
+                lg6              : col-lg-6
+                lg7              : col-lg-7
+                lg8              : col-lg-8
+                lg9              : col-lg-9
+                lg10             : col-lg-10
+                lg11             : col-lg-11
+                lg12             : col-lg-12
+        heading:
+            size:
+                default          : h1
+                h1               : h1
+                h2               : h2
+                h3               : h3
+                h4               : h4
+                h5               : h5
+                h6               : h6
+        inlineText:
+            inline:
+                default          : span
+                marked           : mark
+                deleted          : del
+                strike           : s
+                inserted         : ins
+                underlined       : u
+                small            : small
+                bold             : strong
+                italic           : em
+        transformText:
+            transform:
+                default          : ""
+                lower            : text-lowercase
+                upper            : text-uppercase
+                capital          : text-capitalize
+        alignmentText:
+            alignment:
+                default          : ""
+                left             : text-left
+                smallLeft        : text-left
+                smallOnlyLeft    : text-left
+                mediumLeft       : text-left
+                mediumOnlyLeft   : text-left
+                largeLeft        : text-left
+                largeOnlyLeft    : text-left
+                xLargeLeft       : text-left
+                xLargeOnlyLeft   : text-left
+                xxLargeLeft      : text-left
+                right            : text-right
+                smallRight       : text-right
+                smallOnlyRight   : text-right
+                mediumRight      : text-right
+                mediumOnlyRight  : text-right
+                largeRight       : text-right
+                LargeOnlyRight   : text-right
+                xLargeRight      : text-right
+                xLargeOnlyRight  : text-right
+                xxLargeRight     : text-right
+                center           : text-center
+                smallCenter      : text-center
+                smallOnlyCenter  : text-center
+                mediumCenter     : text-center
+                mediumOnlyCenter : text-center
+                largeCenter      : text-center
+                largeOnlyCenter  : text-center
+                xLargeCenter     : text-center
+                xLargeOnlyCenter : text-center
+                xxLargeCenter    : text-center
+                justify          : text-justify
+                smallJustify     : text-justify
+                smallOnlyJustify : text-justify
+                mediumJustify    : text-justify
+                mediumOnlyJustify: text-justify
+                largeJustify     : text-justify
+                largeOnlyJustify : text-justify
+                xLargeJustify    : text-justify
+                xLargeOnlyJustify: text-justify
+                xxLargeJustify   : text-justif
+        list:
+            order:
+                default          : ul
+                ordered          : ol
+                unordered        : ul
+            decoration:
+                default          : ""
+                inline           : list-inline
+                unstyled         : unstyled-list
+                disc             : unstyled-list
+                square           : unstyled-list
+                circle           : unstyled-list
+                nothing          : unstyled-list
+        tab:
+            theme:
+                default          : nav-tabs
+                tab              : nav-tabs
+                pill             : nav-pills
+            style:
+                default          : ""
+                vertical         : nav-stacked
+                justify          : nav-justified
+        tabTitle:
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+        tabContent:
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+        label:
+            theme:
+                default          : label-default
+                error            : label-danger
+                information      : label-info
+                link             : label-default
+                primary          : label-primary
+                secondary        : label-default
+                success          : label-success
+                warning          : label-warning
+            border:
+                default          : ""
+                round            : ""
+                radius           : ""
+        alert:
+            theme:
+                default          : alert-default
+                error            : alert-danger
+                information      : alert-info
+                link             : alert-default
+                primary          : alert-primary
+                secondary        : alert-default
+                success          : alert-success
+                warning          : alert-warning
+            border:
+                default          : alert-dismissible
+                round            : alert-dismissible
+                radius           : alert-dismissible
+                dismissible      : alert-dismissible
+        button:
+            theme:
+                default          : btn-default
+                error            : btn-danger
+                information      : btn-info
+                link             : btn-link
+                primary          : btn-primary
+                secondary        : btn-default
+                success          : btn-success
+                warning          : btn-warning
+            size:
+                extra_small      : btn-xs
+                small            : btn-xs
+                medium           : btn-sm
+                default          : ""
+                large            : btn-lg
+                expanded         : btn-block
+            state:
+                default          : null
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : ""
+                radius           : ""
+        dropdownButton:
+            theme:
+                default          : btn-default
+                error            : btn-danger
+                information      : btn-info
+                link             : btn-link
+                primary          : btn-primary
+                secondary        : btn-default
+                success          : btn-success
+                warning          : btn-warning
+            size:
+                extra_small      : btn-xs
+                small            : btn-xs
+                medium           : btn-sm
+                default          : ""
+                large            : btn-lg
+                expanded         : btn-block
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : ""
+                radius           : ""
+        splitDropdownButton:
+            theme:
+                default          : btn-default
+                error            : btn-danger
+                information      : btn-info
+                link             : btn-link
+                primary          : btn-primary
+                secondary        : btn-default
+                success          : btn-success
+                warning          : btn-warning
+            size:
+                default          : ""
+                extra_small      : btn-xs
+                small            : btn-xs
+                medium           : btn-sm
+                large            : btn-lg
+                expanded         : ""
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : ""
+                radius           : ""
+        buttonGroup:
+            theme:
+                default          : btn-default
+                error            : btn-danger
+                information      : btn-info
+                link             : btn-link
+                primary          : btn-primary
+                secondary        : btn-default
+                success          : btn-success
+                warning          : btn-warning
+            size:
+                default          : ""
+                extra_small      : btn-group-xs
+                small            : btn-group-xs
+                medium           : btn-group-sm
+                large            : btn-group-lg
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : ""
+                radius           : ""
+            group:
+                default          : ""
+                stack            : ""
+                stackForSmall    : ""
+                vertical         : btn-group-vertical
+                expanded         : btn-group-justified
+
+    foundation:
+        container:
+            classCont:
+                cont             : row
+        containerFluid:
+            classContFluid:
+                contFluid        : row
+        gridItem:
+            classGridItem:
+                default          : ""
+                xs1              : small-1
+                xs2              : small-2
+                xs3              : small-3
+                xs4              : small-4
+                xs5              : small-5
+                xs6              : small-6
+                xs7              : small-7
+                xs8              : small-8
+                xs9              : small-9
+                xs10             : small-10
+                xs11             : small-11
+                xs12             : small-12
+                sm1              : small-1
+                sm2              : small-2
+                sm3              : small-3
+                sm4              : small-4
+                sm5              : small-5
+                sm6              : small-6
+                sm7              : small-7
+                sm8              : small-8
+                sm9              : small-9
+                sm10             : small-10
+                sm11             : small-11
+                sm12             : small-12
+                md1              : medium-1
+                md2              : medium-2
+                md3              : medium-3
+                md4              : medium-4
+                md5              : medium-5
+                md6              : medium-6
+                md7              : medium-7
+                md8              : medium-8
+                md9              : medium-9
+                md10             : medium-10
+                md11             : medium-11
+                md12             : medium-12
+                lg1              : large-1
+                lg2              : large-2
+                lg3              : large-3
+                lg4              : large-4
+                lg5              : large-5
+                lg6              : large-6
+                lg7              : large-7
+                lg8              : large-8
+                lg9              : large-9
+                lg10             : large-10
+                lg11             : large-11
+                lg12             : large-12
+        heading:
+            size:
+                default          : h1
+                h1               : h1
+                h2               : h2
+                h3               : h3
+                h4               : h4
+                h5               : h5
+                h6               : h6
+        inlineText:
+            inline:
+                default          : span
+                marked           : mark
+                deleted          : del
+                strike           : s
+                inserted         : ins
+                underlined       : u
+                small            : small
+                bold             : strong
+                italic           : em
+        transformText:
+            transform:
+                default          : ""
+                lower            : ""
+                upper            : ""
+                capital          : ""
+        alignmentText:
+            alignment:
+                default          : ""
+                left             : text-left
+                smallLeft        : small-text-left
+                smallOnlyLeft    : small-only-text-left
+                mediumLeft       : medium-text-left
+                mediumOnlyLeft   : medium-only-text-left
+                largeLeft        : large-text-left
+                largeOnlyLeft    : large-only-text-left
+                xLargeLeft       : xlarge-text-left
+                xLargeOnlyLeft   : xlarge-only-text-left
+                xxLargeLeft      : xxlarge-text-left
+                right            : text-right
+                smallRight       : small-text-right
+                smallOnlyRight   : small-only-text-right
+                mediumRight      : medium-text-right
+                mediumOnlyRight  : medium-only-text-right
+                largeRight       : large-text-right
+                LargeOnlyRight   : large-only-text-right
+                xLargeRight      : xlarge-text-right
+                xLargeOnlyRight  : xlarge-only-text-right
+                xxLargeRight     : xxlarge-text-right
+                center           : text-center
+                smallCenter      : small-text-center
+                smallOnlyCenter  : small-only-text-center
+                mediumCenter     : medium-text-center
+                mediumOnlyCenter : medium-only-text-center
+                largeCenter      : large-text-center
+                largeOnlyCenter  : large-only-text-center
+                xLargeCenter     : xlarge-text-center
+                xLargeOnlyCenter : xlarge-only-text-center
+                xxLargeCenter    : xlarge-only-text-center
+                justify          : text-justify
+                smallJustify     : small-text-justify
+                smallOnlyJustify : small-text-justify
+                mediumJustify    : medium-text-justify
+                mediumOnlyJustify: medium-only-text-justify
+                largeJustify     : large-text-justify
+                largeOnlyJustify : large-only-text-justify
+                xLargeJustify    : large-only-text-justify
+                xLargeOnlyJustify: xlarge-only-text-justify
+                xxLargeJustify   : xxlarge-text-justify
+        list:
+            order:
+                default          : ul
+                ordered          : ol
+                unordered        : ul
+            decoration:
+                default          : ""
+                inline           : inline-list
+                unstyled         : unstyled-list
+                disc             : disc
+                square           : square
+                circle           : circle
+                nothing          : no-bullet
+        tab:
+            theme:
+                default          : ""
+                tab              : ""
+                pill             : ""
+            style:
+                default          : ""
+                vertical         : vertical
+                justify          : ""
+        tabTitle:
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+        tabContent:
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+        label:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : link
+                primary          : primary
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+        alert:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : ""
+                primary          : ""
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+                dismissible      : ""
+        button:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : link
+                primary          : primary
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            size:
+                default          : ""
+                extra_small      : tiny
+                small            : small
+                medium           : small
+                large            : large
+                expanded         : expand
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+        dropdownButton:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : link
+                primary          : primary
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            size:
+                default          : ""
+                extra_small      : tiny
+                small            : small
+                medium           : small
+                large            : large
+                expanded         : expand
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+        splitDropdownButton:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : link
+                primary          : primary
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            size:
+                default          : ""
+                extra_small      : tiny
+                small            : small
+                medium           : small
+                large            : large
+                expanded         : expand
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+        buttonGroup:
+            theme:
+                default          : ""
+                error            : alert
+                information      : info
+                link             : link
+                primary          : primary
+                secondary        : secondary
+                success          : success
+                warning          : warning
+            size:
+                default          : ""
+                extra_small      : tiny
+                small            : small
+                medium           : small
+                large            : large
+            state:
+                default          : ""
+                active           : active
+                disabled         : disabled
+            border:
+                default          : ""
+                round            : round
+                radius           : radius
+            group:
+                default          : ""
+                stack            : stack
+                stackForSmall    : stack-for-small
+                vertical         : stack
+                expanded         : even-3
+
+
+
+
+
+
+

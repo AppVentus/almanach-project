@@ -1,0 +1,8 @@
+almanach:
+    resource: "@AlmanachBundle/Controller"
+    type: annotation
+    prefix: /almanach
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

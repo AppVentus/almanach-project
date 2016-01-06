@@ -1,0 +1,15 @@
+{
+  "name": "Almanach project",
+  "authors": [
+    "Leny BERNARD <leny@appventus.com>"
+  ],
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+      "jquery": "1.11.*",
+      "components-font-awesome": "4.5.0",
+      "bootstrap": "3.3.6",
+      "modernizr": "~2.8.3"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "src/AppVentus/AlmanachBundle"]
+	path = src/AppVentus/AlmanachBundle
+	url = git@github.com:AppVentus/AlmanachBundle.git
