@@ -5,8 +5,7 @@
         <div id="container">
             <div id="welcome">
                 {{ almanach_heading(
-                    almanach_inlineText('Welcome to', 'bootstrap', {'inline': 'default'}) ~ ' ALMANACH SANDBOX',
-                    'bootstrap',
+                    almanach_inlineText('Welcome to', {'inline': 'default'}) ~ ' ALMANACH SANDBOX',
                     {
                         'size': 'h1'
                     }
@@ -19,27 +18,22 @@
                         almanach_listItem(
                             almanach_button(
                                 'Foundation',
-                                'bootstrap',
                                 {
                                     theme: 'link',
                                     link: path('almanach_doc_index', {'framework': 'foundation'}),
                                 }
-
-                            ),
-                            'foundation'
+                            )
                         ),
                         almanach_listItem(
                             almanach_button(
                                 'Bootstrap',
-                                'bootstrap',
                                 {
                                     theme: 'link',
                                     link: path('almanach_doc_index', {'framework': 'bootstrap'}),
                                 }
-                            ),
-                            'foundation'
+                            )
                         )
-                    ], 'foundation') }}
+                    ]) }}
                 </p>
             </div>
         </div>
